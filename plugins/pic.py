@@ -9,7 +9,7 @@ from telegraph import upload_file
 async def start(client, message):
     await client.send_message(
         chat_id=message.chat.id,
-        text=f"Hello👋 {message.from_user.first_name},\n\nWelcome to @img2link_nj7Bot! Send me Photo i will upload it on server and give you download link of it. Maximum Photo size 2 MB.\n\n\n [Πī†īsHjēē†7 ™](https://t.me/nitishjeet7)",
+        text=f"Hello👋   {message.from_user.first_name},\n\nWelcome to @img2link_nj7Bot !\n Send me Photo i will upload it on server and give you download link of it. Maximum Photo size 2 MB.",
         reply_to_message_id=message.message_id
     )
     
